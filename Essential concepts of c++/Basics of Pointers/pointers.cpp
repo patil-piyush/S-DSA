@@ -36,7 +36,6 @@ int main()
     float c=12.33,*s=&c;
     double d=44.56,*t=&d;
     string e="xyz",*u=&e;
-
     cout<<"\nSize of int data-type: "<<(sizeof(r));
     cout<<"\nSize of float data-type: "<<(sizeof(s));
     cout<<"\nSize of double data-type: "<<(sizeof(t));
