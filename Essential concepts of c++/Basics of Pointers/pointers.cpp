@@ -8,6 +8,16 @@ int main()
     p=&a;
     cout<<"The value of a: "<<*p;
 
+    //printing the array using pointer
+   int arr[4]={19,42,30,49};
+   int *z;
+   z=arr;
+   cout<<"The array elements are: ";
+   for(int i=0;i<4;i++)
+   {
+       cout<<*(z+i)<<" ";
+   }
+
     //dynamic memory allocation
     cout<<"\nEnter the size: ";
     cin>>n;
