@@ -1,5 +1,5 @@
 #include <iostream>
-using namepsace std;
+using namespace std;
 
 // Define the Rectangle structure
 struct Rectangle 
@@ -30,6 +30,8 @@ int main()
     cout << "\nUsing dynamic memory allocation:" << endl;
     cout << "Length: " << ptr_dy->length << endl;
     cout << "Breadth: " << ptr_dy->breadth << endl;
+
+    delete ptr_dy;
 
     return 0;
 }
